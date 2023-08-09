@@ -1,6 +1,6 @@
-import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component"
+import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
 import { motion } from 'framer-motion';
-import 'react-vertical-timeline-component/style.mon.css';
+import 'react-vertical-timeline-component/style.min.css';
 
 import { styles } from "../styles";
 import { experiences } from "../constants"; 
@@ -24,7 +24,7 @@ const ExperienceCard = ({ experience }) => {
     </div>
 
     <ul>
-      
+
     </ul>
    </VerticalTimelineElement>
 }
@@ -44,4 +44,4 @@ const Experience = () => {
   )
 }
 
-export default Experience
+export default Experience;
