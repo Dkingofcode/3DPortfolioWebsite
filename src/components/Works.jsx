@@ -1,5 +1,5 @@
 import React from 'react';
-import Tilt from 'react-tilt';
+import {Tilt} from 'react-tilt';
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { github } from '../assets';
@@ -42,7 +42,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
         <div className='mt-4 flex flex-wrap gap-2'>
           {tags.map((tag) => (
             <p key={tag.name} className={`text-[14px] ${tag.color}`}>
-              
+
             </p>
           ))}
         </div>
